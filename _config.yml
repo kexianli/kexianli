@@ -80,4 +80,6 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/kexianli/kexianli.github.io.git
-  branch: public
+  branch: master
+  
+  
