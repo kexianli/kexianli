@@ -47,9 +47,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: /assets/zfb.jpg
+alipay: /assets/alipay.jpg
 # 微信二维码图片地址
-weixin: /assets/wxsk.jpg
+weixin: /assets/wxpay.jpg
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -89,7 +89,8 @@ changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
-
+# Livere评论系统
+livere_uid: MTAyMC80NDk1MS8yMTQ3Mg==
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
 gitment_repo: ''          #存储评论的 repo
@@ -130,3 +131,20 @@ friends:
 aboutme: 我就是我<br>不是你随意想象的烟火<br>上不知天文<br>下不知地理
          <br>没有学富五车<br>更无财高八斗<br>穷的很<br>菜菜的码农<br>一般般的日子
          <br>然而<br>我还是有mini的烟火<br>我真的就是我
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: live2d-widget-model-tororo
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+
