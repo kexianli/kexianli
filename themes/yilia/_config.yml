@@ -147,4 +147,6 @@ live2d:
     height: 300
   mobile:
     show: true
-
+# Local search
+local_search:
+  enable: true
